@@ -154,6 +154,7 @@ cv2.destroyAllWindows()
 
 ### vii) HSV to RGB and BGR
 ```
+import cv2
 img = cv2.imread('dog.jpg')
 img = cv2.resize(img,(300,200))
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)

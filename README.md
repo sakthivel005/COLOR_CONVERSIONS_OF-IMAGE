@@ -96,8 +96,8 @@ cv2.destroyAllWindows()
 ## Output:
   ![Screenshot 2024-02-15 150821](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/d489bf8f-a62d-4b80-bbd8-71584d442a0f)
 ### v)Cut and paste portion of image               
-```import cv2
-   image=cv2.imread('lily.jpg',1)
+```
+   image=cv2.imread('dog.jpg',1)
    image=cv2.resize(image,(400,400))
    tag =image[130:200,110:190]
    image[110:180,120:200] = tag
@@ -107,7 +107,7 @@ cv2.destroyAllWindows()
 ```
  
 ## Output:
-  ![Screenshot 2024-02-15 150908](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/961e9455-504a-49a2-bfc2-4831cfc55ac1)
+  ![Screenshot 2024-02-15 192945](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/4bce6e90-1af4-4e1d-83c9-018a45ca4615)
 
 ### vi) BGR and RGB to HSV and GRAY           
 ```
@@ -144,8 +144,8 @@ cv2.destroyAllWindows()
 
 
 ### vii) HSV to RGB and BGR
-```import cv2
-img = cv2.imread('lily.jpg')
+```
+img = cv2.imread('dog.jpg')
 img = cv2.resize(img,(300,200))
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
 cv2.imshow('Original HSV Image',img)
@@ -157,14 +157,15 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ## Output:
-![Screenshot 2024-02-15 151152](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/e71dc3fd-a499-42a4-8346-31b342521f9b) ![Screenshot 2024-02-15 151218](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/2279f70b-b5e8-4d80-b510-e478c0d7cf5e)
+![Screenshot 2024-02-15 193353](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/69e07b00-bc24-4656-a5a8-bb45e224758f)![Screenshot 2024-02-15 193413](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/fe0c1c80-9141-4c3b-a06f-0c767b1b5205)
 
-![Screenshot 2024-02-15 151205](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/ddfb22b9-f17a-4e7e-a854-af8b30b949ef)
+![Screenshot 2024-02-15 193437](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/a5476a64-d3e9-404f-bf3c-fcf50eebc360)
+
 
 
 ### viii) RGB and BGR to YCrCb
-```import cv2
-img = cv2.imread('lily.jpg')
+```
+img = cv2.imread('dog.jpg')
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original RGB Image',img)
 YCrCb1 = cv2.cvtColor(img, cv2.COLOR_BGR2YCrCb)
@@ -175,13 +176,14 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ## Output:
-![Screenshot 2024-02-15 151329](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/63959b4b-4bf7-4104-bdfc-3887ea716ee4) ![Screenshot 2024-02-15 151404](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/e5a7c534-656a-4a82-b936-01a92fd35fad)
+![Screenshot 2024-02-15 193702](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/c53f3fe3-14fc-4acd-aff8-618be135e08f)
+![Screenshot 2024-02-15 193945](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/4be22ab3-c1e7-4c4b-b8fe-f67ac45a8751)
+![Screenshot 2024-02-15 193745](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/fd35d2d2-04f0-4e24-95a7-b7d5a5b3a467)
 
-![Screenshot 2024-02-15 151341](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/324e9744-6223-4fd3-b395-20993e0abb99)
 
 ### ix) Split and merge RGB Image
-```import cv2
-img = cv2.imread('lily.jpg',1)
+```
+img = cv2.imread('dog.jpg',1)
 img = cv2.resize(img,(300,200))
 R = img[:,:,2]
 G = img[:,:,1]
@@ -195,16 +197,17 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ##  Output:
-![Screenshot 2024-02-15 151445](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/f037a556-9378-4cf2-b036-083b31b58209) ![Screenshot 2024-02-15 151500](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/3bf3468e-c76b-4987-84da-0fb23f7ca54a)
+![Screenshot 2024-02-15 194205](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/e1727a1e-d8f0-4f56-baf8-830d13ea6159)![Screenshot 2024-02-15 194148](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/8dbfe2d2-bd72-48a8-bdb5-ced617093eee)
 
-![Screenshot 2024-02-15 151523](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/5dd2d990-53f9-4fdf-87c6-6a3f0a7b69a0) ![Screenshot 2024-02-15 151537](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/28ef4aef-6ea0-4ce3-b61f-e98e2f8e7ed0)
+![Screenshot 2024-02-15 194115](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/3d552a7e-25f1-4e48-967d-52c48641700![Screenshot 2024-02-15 194130](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/3f3ae304-cb30-4a31-b00d-c8b76c02ecc2)
+8)
 
 
 
 
 ### x) Split and merge HSV Image
-```import cv2
-img = cv2.imread("lily.jpg",1)
+```
+img = cv2.imread("dog.jpg",1)
 img = cv2.resize(img,(300,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 H,S,V=cv2.split(img)
@@ -218,8 +221,11 @@ cv2.destroyAllWindows()
 ```
 
 ## Ouput:
-![Screenshot 2024-02-15 151646](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/c2e1719a-6dd2-4b20-bcd1-664eeeec1aa3) ![Screenshot 2024-02-15 151608](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/98755682-209a-4aa3-9068-5add974d3df9)
-![Screenshot 2024-02-15 151622](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/90f972cd-3ffa-4088-bc8d-223af79300e8) ![Screenshot 2024-02-15 151634](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/4b72062f-36d2-4f0c-9d5e-e7993f288f57)
+![Screenshot 2024-02-15 194454](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/d0680c15-5755-4c0e-bca3-91176b831db5)![Screenshot 2024-02-15 194539](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/bd59bc4a-a0d6-46b5-addf-8821a2809fd6)
+
+![Screenshot 2024-02-15 194523](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/4a3ab9cf-1716-44e5-80de-3273b3d05117)
+![Screenshot 2024-02-15 194511](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/f3114856-43fa-4934-9ebd-3525df522645)
+
 
 
 

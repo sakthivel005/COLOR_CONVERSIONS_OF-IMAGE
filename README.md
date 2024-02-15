@@ -199,8 +199,8 @@ cv2.destroyAllWindows()
 ##  Output:
 ![Screenshot 2024-02-15 194205](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/e1727a1e-d8f0-4f56-baf8-830d13ea6159)![Screenshot 2024-02-15 194148](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/8dbfe2d2-bd72-48a8-bdb5-ced617093eee)
 
-![Screenshot 2024-02-15 194115](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/3d552a7e-25f1-4e48-967d-52c48641700![Screenshot 2024-02-15 194130](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/3f3ae304-cb30-4a31-b00d-c8b76c02ecc2)
-8)
+![Screenshot 2024-02-15 194115](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/7e861787-90c5-4592-8183-cabc7e5062d7)
+![Screenshot 2024-02-15 194130](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/8a37fe2d-bcb7-408e-b8f1-daa4fbd29860)
 
 
 

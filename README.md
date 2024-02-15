@@ -46,16 +46,18 @@ Split and merge HSV Image
                                                       
  
   
- ```import cv2                                                      
-    image=cv2.imread('lily.jpg',1)
-    image=cv2.resize(image,(400,300))
-    cv2.imshow('Gokul J',image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+ ```
+import cv2
+image=cv2.imread('dog.jpg',1)
+image=cv2.resize(image,(400,300))
+cv2.imshow('sakthi',image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
  ```
 
 ## Output:
-  ![Screenshot 2024-02-15 145958](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/5e323ed8-f85c-4179-9645-feac56b1861e)
+  ![Screenshot 2024-02-15 135726](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/f392ae14-d889-44ea-a995-0ac4f02ada84)
+
 
 ### ii)Write the image                         
                                                       
@@ -108,28 +110,37 @@ Split and merge HSV Image
   ![Screenshot 2024-02-15 150908](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/961e9455-504a-49a2-bfc2-4831cfc55ac1)
 
 ### vi) BGR and RGB to HSV and GRAY           
-```import cv2
-img = cv2.imread('lily.jpg',1)
+```
+import cv2
+img = cv2.imread('dog.jpg',1)
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original Image',img)
+
 hsv1 = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
 cv2.imshow('BGR2HSV',hsv1)
+
 hsv2 = cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 cv2.imshow('RGB2HSV',hsv2)
+
 gray1 = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 cv2.imshow('BGR2GRAY',gray1)
+
 gray2 = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
 cv2.imshow('RGB2GRAY',gray2)
+
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
 ## Output:
-![Screenshot 2024-02-15 150953](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/f1ab3618-070f-4abd-a108-e8b9c0896d28) ![Screenshot 2024-02-15 151041](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/3fdfd6b3-edad-4bbd-8ade-349e25fc9a9a)
+![Screenshot 2024-02-15 140206](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/bfc64452-f9c8-4abe-9982-31b896966ad7)![Screenshot 2024-02-15 140334](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/cd11adf1-a721-4252-b1c3-6bf72675bf6c)
 
-![Screenshot 2024-02-15 151014](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/064085ab-97ea-4fe3-9429-ef762c1501bd) ![Screenshot 2024-02-15 151059](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/c4638f94-1ad4-4674-9c2d-1ce3a1ee24e6)
+![Screenshot 2024-02-15 140314](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/ff6dc6b3-9372-44fa-b81f-a60ab9ca15f7)
+![Screenshot 2024-02-15 140252](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/473dbdc5-6f59-411b-bf86-188d3fabc858)
 
-![Screenshot 2024-02-15 151111](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/c17d8d12-88c2-4222-8a7a-2d942ba53c75)
+ ![Screenshot 2024-02-15 140228](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/344caec1-b527-4c8b-abda-8644bc621ce3)
+
+
 
 
 ### vii) HSV to RGB and BGR

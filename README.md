@@ -61,27 +61,33 @@ cv2.destroyAllWindows()
 
 ### ii)Write the image                         
                                                       
- ```import cv2
-    image=cv2.imread('lily.jpg',0)
-    cv2.imwrite('d.jpg',image)
+ ```
+import cv2
+   image=cv2.imread('dog.jpg',0)
+   cv2.imwrite('d.jpg',image)
 ```
 ## Output:
-  ![Screenshot 2024-02-15 150603](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/456288b6-6a8b-432b-b007-61b53e9ccad2)
+  ![Screenshot 2024-02-15 205052](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/65bf2ab2-3200-4738-8b7c-7214838bd2da)
+
       
 ### iii)Shape of the Image                           
                                                           
-``` import cv2
-    image=cv2.imread('space1.jpg',1)
+```
+ import cv2
+    image=cv2.imread('dog.jpg',1)
     print(image.shape)
 ```
 ## Output:
-![Screenshot 2024-02-15 150652](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/71f9a7e9-4a89-4423-b654-96f4747d5a7f)
+
+![Screenshot 2024-02-15 205157](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/67c8a66c-a100-422a-bb27-d3e297b9eaf3)
+
                                                      
 ### iv)Access rows and columns                    
                                                        
-```import random
+```
+import random
     import cv2
-    image=cv2.imread('lily.jpg',1)
+    image=cv2.imread('dog.jpg',1)
     image=cv2.resize(image,(400,400))
     for i in range (150,200):
       for j in range(image.shape[1]):
@@ -94,7 +100,10 @@ cv2.destroyAllWindows()
 ```
 
 ## Output:
-  ![Screenshot 2024-02-15 150821](https://github.com/Gokul0117/COLOR_CONVERSIONS_OF-IMAGE/assets/121165938/d489bf8f-a62d-4b80-bbd8-71584d442a0f)
+
+![Screenshot 2024-02-15 205549](https://github.com/sakthivel005/COLOR_CONVERSIONS_OF-IMAGE/assets/120550359/975f545e-1ed9-4866-bde9-55bba58322a1)
+
+ 
 ### v)Cut and paste portion of image               
 ```
    image=cv2.imread('dog.jpg',1)
